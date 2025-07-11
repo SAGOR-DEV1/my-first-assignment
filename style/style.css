@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    font-family: 'Raleway'sans-serif;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway'sans-serif;
   background: #f5f8ff;
   color: #222;
 }
@@ -74,7 +75,7 @@ body {
   justify-content: center;
   padding: 80px 20px;
   background-color: #f5f8ff;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Raleway'sans-serif;
 }
 
 .text-content {
@@ -126,7 +127,7 @@ body {
   text-align: center;
   max-width: 1140px;
   margin: auto;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Raleway'sans-serif;
 }
 
 .stats-container h2 {
@@ -350,7 +351,7 @@ h2 {
 /* better landing page*/
 
 .for-test {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway'sans-serif;
     margin: 0;
     padding: 0;
     display: flex;

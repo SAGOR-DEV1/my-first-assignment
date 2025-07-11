@@ -51,7 +51,7 @@
 
 ---
 
-### 5. Let’s Get In Touch Section (10 Marks)
+### 5. (10 Marks)
 
 - Left Side:
   - Section Title
