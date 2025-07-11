@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f9;
+  background: #f5f8ff;
   color: #222;
 }
 
@@ -86,6 +86,7 @@ body {
   font-size: 42px;
   color: #252432;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .text-content p {
@@ -115,7 +116,6 @@ body {
 /* Productive Users Section */
 
 .main-stats {
-  background-color: #f5f8ff;
   padding: 80px 20px;
 }
 
@@ -158,7 +158,6 @@ body {
 /*Feedback Section*/
 
 .main-reviews {
-    background-color: #f5f6fa;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +170,7 @@ body {
 h2 {
     color: #333;
     margin-bottom: 40px;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: 700;
     text-align: center;
 }
@@ -181,7 +180,7 @@ h2 {
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1140px;
 }
 
 .review-card {
@@ -199,18 +198,18 @@ h2 {
 .stars {
     color: #ffc107;
     margin-bottom: 15px;
-    font-size: 1.3em;
+    font-size: 20px;
 }
 
 .review-title {
-    font-size: 1.4em;
+    font-size: 22px;
     font-weight: 600;
     color: #333;
     margin-bottom: 10px;
 }
 
 .review-text {
-    font-size: 1em;
+    font-size: 16px;
     color: #555;
     line-height: 1.6;
     margin-bottom: 25px;
@@ -240,10 +239,110 @@ h2 {
 .reviewer-name {
     font-weight: 600;
     color: #333;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .review-date {
-    font-size: 0.85em;
+    font-size: 13px;
     color: #777;
+}
+
+/*form*/
+
+.contact-form {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: #f5f8ff;
+    border-radius: 10px;
+    max-width: 1140px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 40px; 
+}
+
+.left-section {
+    flex: 1;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.left-section h1 {
+    font-size: 80px;
+    color: #212121;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.right-section {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0; 
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    font-style: normal;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a0a0a0;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #6a4efc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #5a3edb;
 }
