@@ -333,7 +333,7 @@ h2 {
 .submit-button {
     width: 100%;
     padding: 15px;
-    background-color: #6a4efc;
+    background-color: #4E47FF;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -357,7 +357,7 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f8f8f8;
+    background-color: #f5f8ff;
     box-sizing: border-box;
 }
 
@@ -416,4 +416,66 @@ h2 {
     object-fit: cover;
     display: block;
     border-radius: 20px;
+}
+
+/*button*/
+
+button:hover {
+   background-color: #5d4bb3;
+}
+
+/* footer */
+
+.hero-footer {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    background-color: #f8f8f8;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+.footer-logo {
+    color: #4169e1;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-tagline {
+    color: #555;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1em;
 }
