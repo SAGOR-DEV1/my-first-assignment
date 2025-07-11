@@ -89,7 +89,7 @@ body {
 
 .text-content p {
   font-size: 24px;
-  max-width: 400px;
+  max-width: 540px;
   color: rgba(37, 36, 50, 0.5);
   margin-bottom: 24px;
 }
@@ -111,4 +111,47 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/*  */
+/* Productive Users Section */
+
+.main-stats {
+  background-color: #f5f8ff;
+  padding: 80px 20px;
+}
+
+.stats-container {
+  background-color: #e5e7ff;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 1140px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.stats-container h2 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-box h3 {
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0;
+}
+
+.stat-box p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 6px;
+}
+
+/**/
